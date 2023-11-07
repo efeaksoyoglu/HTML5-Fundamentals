@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Forms and Inputs</title>
+</head>
+<body>
+    <form action=>
+
+        <!-- HTML5 Input -->
+        <label for="name">Name</label> <br>
+        <input type="text" id="name" name="name"> <br>
+
+        <label for="email">Email</label> <br>
+        <input type="email" name="email" id="email"> <br>
+
+        <label for="password">Password</label> <br>
+        <input type="password" name="password" id="password"> <br>
+
+        <label for="date">Date</label> <br>
+        <input type="date" name="date" id="date"> <br>
+       <p>
+        Gender <br>
+        Man
+        <input type="radio" name="gender" value="man" checked> 
+        Woman
+        <input type="radio" name="gender" id="woman">  
+       </p> 
+       <p>
+        Hobbies <br>
+        Movies
+        <input type="checkbox" name="movies" id="movie">
+        Books
+        <input type="checkbox" name="books" id="book">
+        Sports
+        <input type="checkbox" name="sports" id="sport" checked> <br>
+
+        Degree <br>
+        <select name="degree" id="degree">
+            <option value="bachelor">Lisans</option>
+            <option value="msc">Yüksek Lisans</option>
+            <option value="phd">Doktora</option>
+        </select> <br>
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea> <br>
+
+       </p>
+       <input type="reset" value="Sıfırla"> 
+       <input type="submit" value="SUBMIT"> <br>
+
+      <!-- <button type="submit">Gönder</button>  -->  
+    </form>
+</body>
+</html>
